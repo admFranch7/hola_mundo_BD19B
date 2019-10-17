@@ -13,10 +13,10 @@
 
       <ion-item>
         <ion-label fixed>Nombre</ion-label>
-        <ion-input type="text" value=""></ion-input>
+        <ion-input type="text" value="" [(ngModel)]="Nombre"></ion-input>
       </ion-item>
     
     </ion-list>
-    <button ion-button color="light">Picar</button>
+    <button ion-button color="light" (click)="click()">Picar</button>
   </p>
 </ion-content>
